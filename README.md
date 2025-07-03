@@ -1,5 +1,5 @@
-Banco de dados provisório
-create database Caladan;
+Banco de dados provisório  
+```create database Caladan;
 USE Caladan;
 
 create table produtos(
