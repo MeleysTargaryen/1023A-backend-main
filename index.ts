@@ -3,7 +3,10 @@ import fastify, { FastifyRequest, FastifyReply } from 'fastify';
 import cors from '@fastify/cors';
 
 const app = fastify();
-app.register(cors);
+app.register(cors, {
+  origin: '*', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+});
 
 async function criarConexao() {
   return mysql.createConnection({
