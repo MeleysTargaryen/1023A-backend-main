@@ -28,7 +28,8 @@ npm install fastify mysql2 @fastify/cors
 
 Código MySql
 -
-```CREATE DATABASE  Caladan;
+```
+CREATE DATABASE  Caladan;
 USE Caladan;
 
 CREATE TABLE categorias (
