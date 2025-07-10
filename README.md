@@ -1,5 +1,33 @@
-Banco de dados 
+ 🌊☆⋆｡🪼Tema do Projeto𖦹°‧★🐚
+-
+O Caladan Ecorefúgio é um sistema de gerenciamento de vendas de produtos confeccionados à mão para angariar fundos para um projeto de resgate e tratamento de animais marinhos em situação de vulnerabilidade.
 
+🪼 Funcionalidades Implementadas
+-
+1. Foi utilizado React no frontend, e a navegação entre as páginas é feita com a biblioteca react-router-dom.
+   
+4. Backend em Fastify (index.ts)
+   -
+API RESTful com endpoints para consulta.
+Conexão com MySQL para armazenamento dos dados.
+Tratamento de erros detalhado para auxiliar no desenvolvimento.
+
+🐚 Como Executar o Projeto Localmente
+-
+1.Pré-requisitos
+Node.js 
+MySQL (Laragon para gestão do banco)
+Git (opcional, para clonar o repositório)
+
+comandos do terminal 
+-
+```
+npm install fastify mysql2 @fastify/cors
+ npm run dev
+```
+
+Código MySql
+-
 ```CREATE DATABASE  Caladan;
 USE Caladan;
 
@@ -41,3 +69,49 @@ SELECT p.id, p.nome, p.preco, c.nome AS categoria
 
 
   ```
+Diagrama
+-
+<img width="414" height="280" alt="image" src="https://github.com/user-attachments/assets/e37792c1-6938-47aa-b05e-6a41d23b0629" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
